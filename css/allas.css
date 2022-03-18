@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(40, 40, 40);
+    font-family: 'Valorant', sans-serif;
+}
+
+ul {
+    background-color:red;
+    list-style-type: none;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
