@@ -83,5 +83,5 @@ li a:hover {
     margin: 50px;
     width: 460px;
     text-align: center;
-    border: solid;
+    border: 2px solid white;
 }
