@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(39, 39, 39);
     font-family: 'Valorant', sans-serif;
 }
 
@@ -17,6 +17,7 @@ ul {
     font-size: 50px;
     text-decoration: 0;
     color: white;
+    z-index: 1;
 }
 
 li {
@@ -29,8 +30,8 @@ li a{
     text-align: center;
     color: white;
     text-decoration: 0;
-    border-right: 10px solid rgb(0, 102, 255);
-    border-left: 10px solid rgb(0, 102, 255);
+    border-right: 10px solid rgb(0, 100, 255);
+    border-left: 10px solid rgb(0, 100, 255);
 }
 
 h1 {
@@ -53,35 +54,100 @@ div {
 
 #text1 {
     margin: 0px;
-    margin-right: 1450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #text2 {
     margin: 0px;
-    margin-left: 1450px;
     align-items: top;
 }
 
 li a:hover {
-    color: rgb(150, 0, 0)
+    color: rgb(80, 0, 0)
 }
 
 #roles {
     margin: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .all-roles {
     margin: 0px;
     display: flex;
     justify-content: space-evenly;
-    border: solid;
 }
 
 .all-roles-text {
-    margin: 50px;
-    width: 460px;
+    margin: 10px;
+    width: 450px;
     text-align: center;
+}
+
+.some-agents {
     border: 2px solid white;
+}
+
+#events {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#event-text {
+    border: thick turquoise;
+    border-style: groove;
+}
+
+#event-text2 {
+    border: thick pink;
+    border-style: dashed;
+}
+
+
+.div-content {
+    width: 700px;
+    position: relative;
+    min-width: 700px;
+}
+
+.slider-button {
+    border: none;
+    display: inline-block;
+    padding: 7px 7px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: greenyellow;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
+}
+
+.slider-button:hover {
+    color: rgb(255, 50, 0);
+}
+
+.display-left {
+    left: 0%;
+}
+
+.display-right {
+    right: 0%;
+}
+
+#game1 {
+    width: 500px;
+}
+
+#game2 {
+    width: 500px;
 }
