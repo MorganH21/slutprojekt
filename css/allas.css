@@ -76,10 +76,12 @@ li a:hover {
     margin: 0px;
     display: flex;
     justify-content: space-evenly;
+    border: solid;
 }
 
 .all-roles-text {
     margin: 50px;
     width: 460px;
     text-align: center;
+    border: solid;
 }
