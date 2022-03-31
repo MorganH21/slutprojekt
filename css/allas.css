@@ -171,11 +171,6 @@ li a:hover {
     padding: 5px;
 }
 
-#valorant-bild {
-    border: white;
-    border-style: double;
-}
-
 #game3 {
     border: inset whitesmoke;
     margin: 35px;
@@ -289,7 +284,7 @@ li a:hover {
 
 .dropdown-content {
     display: none;
-    min-width: 200px;
+    width: 200px;
     position: absolute;
     overflow: auto;
     z-index: 1;
@@ -524,22 +519,98 @@ li a:hover {
       margin-top: 60px;
   }
 
+  #valorant-bild {
+    border: white;
+    border-style: double;
+    width: 100%;
+}
 
-@media and screen (max-width:420px) {
-    .valorant-bild {
-        max-width: 50%;
+
+
+@media screen and (max-width:420px) {
+    
+    h1 {
+        font-size: 35px;
+    }
+
+    #valorant-bild {
+        width: 190px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     
-        h1 {
-            color: white;
-            display: flex; 
-            flex-direction: column;
-            align-items: center;
-            font-size: 16px;
-            border-radius: 16px;
-            border-bottom: groove white;
-            margin: 11px;
-            margin-top: 13px;
-        }
+    .dropdown {
+        color: white;
+        font-size: 70%;
+        position: auto;
+        display: inline-block;
+    }
+
+    .dropbtn {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .dropdown-content a {
+        padding: 6px 10px;
+        color: white;
+      }
+
+      .dropdown-content {
+        box-shadow: 1.5px 1.5px 1.5px 1.5px white;
+        background-color: red;
+        border-radius: 25px;
+        padding-right: 0px;
+      }
+
+      #myDropdown {
+        width: 105px;
+      }
+
+      #music {
+          font-size: 57%;
+      }
+
+    #text1 {
+        width: 100%;
+        margin: 35px 0px;
+        font-size: 45%;
+    }
+
+    .link {
+        font-size: 120%;
+    }
+
+    .links {
+        font-size: 40%;
+        margin-top: 58px;
+    }
+
+    .surces {
+        margin-top: 6px;
+    }
+
+    .sources {
+        font-size: 150%;
+    }
+
+    #game3 {
+        font-size: 50%;
+    }
+
+    #sentinel {
+        flex-direction: column;
+    }
     
+    #duelist {
+        flex-direction: column;
+    }
+
+    #controller {
+        flex-direction: column;
+    }
+
+    #initiator {
+        flex-direction: column;
+    }
 }
