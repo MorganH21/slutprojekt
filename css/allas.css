@@ -363,24 +363,6 @@ li a:hover {
     color: turquoise;
 }
 
-
-#clockDisplay {
-    width: 300px;
-    font-size: 55px;
-    color: white;
-    padding-top: 30px;
-    font-family: 'Valorant', sans-serif;
-    padding: 5px;
-    box-shadow: 5px 5px 5px 5px white;
-    padding-top: 10px;
-    text-align: center;
-    animation: gradient 15s ease infinite;
-    border: 5px solid white;
-    margin: 60px auto;
-    border-radius: 50px;
-    letter-spacing: 2px;
-}
-
 #text-event {
     margin-left: 5px;
 }
@@ -494,7 +476,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.5s;
+    transition: all 0.5s;
     color: yellowgreen;
   }
   
