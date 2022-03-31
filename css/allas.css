@@ -57,6 +57,13 @@ div {
     margin-top: 0px;
 }
 
+#ngt {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 #bild1 {
     display: flex;
     flex-direction: column;
@@ -80,15 +87,16 @@ li a:hover {
 }
 
 #roles {
-    margin: 30px;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .all-roles {
     margin: 0px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .all-roles-text {
@@ -99,6 +107,7 @@ li a:hover {
 
 .some-agents {
     border: 2px solid white;
+    margin: 50px 0px;
 }
 
 #events {
@@ -106,6 +115,13 @@ li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#role-pic {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #event-text {
@@ -172,9 +188,18 @@ li a:hover {
 }
 
 #game3 {
-    border: inset whitesmoke;
-    margin: 35px;
-    padding-left: 5px;
+    border: groove whitesmoke;
+    padding: 8px;
+    width: 1000px;    
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#game4 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }
 
 #fracture {
@@ -235,9 +260,13 @@ li a:hover {
 }
 
 #agents-title {
-    margin: 0px;
+    margin: auto;
     border: groove whitesmoke;
     padding: 3px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 }
 
 #pic-changer {
@@ -351,6 +380,11 @@ li a:hover {
 
 .sources {
     font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.surces {
+    margin-bottom: 10px;
 }
 
 .link {
@@ -533,10 +567,23 @@ li a:hover {
         font-size: 35px;
     }
 
+    body {
+        background-color: rgb(39, 39, 39);
+        font-family: 'Valorant', sans-serif;
+        background-color: #403060;
+        background-image: radial-gradient( circle, rgba(  0, 0, 0, 0 ) 0%, rgba( 0, 0, 0, 0.8 ) 100% );
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
     #valorant-bild {
-        width: 190px;
-        margin-right: 0px;
-        margin-left: 0px;
+        width: 400px;
+    }
+
+    #ind-bild {
+        margin: 10px 0px;
     }
     
     .dropdown {
@@ -568,13 +615,16 @@ li a:hover {
       }
 
       #music {
-          font-size: 57%;
+          font-size: 60%;
       }
 
     #text1 {
         width: 100%;
         margin: 35px 0px;
-        font-size: 45%;
+        font-size: 69%;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .link {
@@ -582,35 +632,96 @@ li a:hover {
     }
 
     .links {
-        font-size: 40%;
+        font-size: 50%;
         margin-top: 58px;
+        text-align: center;
     }
 
     .surces {
-        margin-top: 6px;
+        margin-bottom: 10px;
     }
 
     .sources {
         font-size: 150%;
+        margin-bottom: 8px;
     }
 
     #game3 {
-        font-size: 50%;
+        font-size: 70%;
+        padding: 5px;
+        width: 85%;
+        margin-top: 2%;
+        margin-bottom: 0px;
+    }
+
+    #game2 {
+        max-width: 390px;
+    }
+
+    #game1 {
+        max-width: 390px;
+    }
+
+    .music-bar {
+        margin: 10px;
+        width: 50%;
     }
 
     #sentinel {
+        width: 200;
+        display: flex; 
         flex-direction: column;
+        align-items: center;
     }
     
     #duelist {
+        width: 200;
+        flex-direction: column;        
         flex-direction: column;
+        align-items: center;    
     }
 
     #controller {
+        width: 200;
+        display: flex; 
         flex-direction: column;
+        align-items: center;
     }
 
     #initiator {
+        width: 200;
+        display: flex; 
         flex-direction: column;
+        align-items: center;    
+    }
+
+    #fract-bild {
+        width: 400px;
+    }
+
+    #fracture {
+        margin: 10px 0px;
+    }
+
+    #agents-title {
+        width: 300px;
+        margin: 35px;
+        font-size: 75%;
+        text-align: center;
+    }
+
+    #roles {
+        width: 200;
+    }
+
+    #some-agents {
+        width: 200px;
+    }
+
+    #media-roles {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 400px;
     }
 }
