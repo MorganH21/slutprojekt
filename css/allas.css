@@ -89,25 +89,42 @@ li a:hover {
 #roles {
     margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
 .all-roles {
     margin: 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
 .all-roles-text {
     margin: 10px;
-    max-width: 450px;
+    width: 300px;
     text-align: center;
+}
+
+#media-roles1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 300px;
+}
+
+#media-roles2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 300px;
 }
 
 .some-agents {
     border: 2px solid white;
-    margin: 50px 0px;
+    margin: 50px 10px;
 }
 
 #events {
@@ -676,7 +693,7 @@ li a:hover {
     
     #duelist {
         width: 200;
-        flex-direction: column;        
+        display: flex;      
         flex-direction: column;
         align-items: center;    
     }
