@@ -89,22 +89,16 @@ li a:hover {
 #roles {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    
     flex-direction: row;
 }
 
-.all-roles {
-    margin: 0px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .all-roles-text {
     margin: 10px;
-    width: 300px;
+    width: 350px;
     text-align: center;
 }
 
@@ -112,14 +106,14 @@ li a:hover {
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 300px;
+
 }
 
 #media-roles2 {
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 300px;
+
 }
 
 .some-agents {
@@ -727,18 +721,42 @@ li a:hover {
         text-align: center;
     }
 
-    #roles {
-        width: 200;
+    .some-agents {
+        padding: 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    #some-agents {
-        width: 200px;
-    }
-
-    #media-roles {
+    .media-roles1 {
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: row;
         align-items: center;
-        width: 400px;
+    }
+
+    .all-roles-text {
+        font-size: 60%;
+        width: 150px;
+    }
+
+    .media-roles2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #src1 {
+        font-size: 40%;
+    }
+
+    .role {
+        width: 125px;
+    }
+
+    #roles {
+        flex-direction: column;
+    }
+
+    .fuck {
+        height: 537.19px;
     }
 }
