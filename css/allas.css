@@ -289,6 +289,10 @@ li a:hover {
     margin: 0px;
 }
 
+img {
+    height: auto;
+}
+
 #fract-lank {
     margin: 0px
 }
