@@ -57,7 +57,7 @@ div {
     margin-top: 0px;
 }
 
-#ngt {
+.ngt {
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,6 @@ div {
 
 #text2 {
     margin: 0px;
-    align-items: top;
 }
 
 li a:hover {
@@ -119,7 +118,7 @@ li a:hover {
     justify-content: space-between;
 }
 
-#role-pic {
+.role-pic {
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -144,7 +143,6 @@ li a:hover {
     position: relative;
     min-width: 36%;
     max-width: 36%;
-    align-items: left;
 }
 
 .slider-button {
@@ -353,7 +351,9 @@ li a:hover {
     color: white;
   }
 
-.show {display: block;}
+.show {
+    display: block;
+}
 
 
 
@@ -576,6 +576,11 @@ li a:hover {
     width: 100%;
 }
 
+.agent-pics {
+    width: 100%;
+}
+
+
 
 
 
@@ -607,7 +612,6 @@ li a:hover {
     .dropdown {
         color: white;
         font-size: 70%;
-        position: auto;
         display: inline-block;
     }
 
@@ -646,11 +650,15 @@ li a:hover {
     }
 
     .link {
-        font-size: 120%;
+        font-size: 200px;
+    }
+
+    a {
+        font-size: 200px;
     }
 
     .links {
-        font-size: 50%;
+        font-size: 100%;
         margin-top: 58px;
         text-align: center;
         margin-top: 1px;
@@ -730,7 +738,7 @@ li a:hover {
     #agents-title {
         width: 80%;
         margin: 10%;
-        font-size: 75%;
+        font-size: 80%;
         text-align: center;
         display: flex; 
         flex-direction: column;
@@ -743,6 +751,7 @@ li a:hover {
         margin-bottom: 1%;
         margin-top: 5%;
         width: 92%;
+        font-size: 130%;
     }
 
     .media-roles1 {
@@ -763,13 +772,14 @@ li a:hover {
         width: 100%;
     }
 
-    #src1 {
-        font-size: 40%;
+    .src1 {
+        font-size: 100px;
     }
 
     .role {
         width: 125px;
         margin-top: 5%;
+        font-size: 150%;
     }
 
     #roles {
@@ -884,11 +894,18 @@ li a:hover {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        height: 220%;
-    }
+        }
 
     #valorant-bild {
         width: 400px;
+    }
+
+    .ngt {
+        width: 100%;
+    }
+
+    .role-pic {
+        width: 55%;
     }
 
     #ind-bild {
@@ -898,7 +915,6 @@ li a:hover {
     .dropdown {
         color: white;
         font-size: 70%;
-        position: auto;
         display: inline-block;
     }
 
@@ -1048,7 +1064,7 @@ li a:hover {
         width: 100%;
     }
 
-    #src1 {
+    .src1 {
         font-size: 40%;
     }
 
@@ -1183,7 +1199,6 @@ li a:hover {
     .dropdown {
         color: white;
         font-size: 70%;
-        position: auto;
         display: inline-block;
     }
 
@@ -1339,7 +1354,7 @@ li a:hover {
         width: 100%;
     }
 
-    #src1 {
+    .src1 {
         font-size: 40%;
     }
 
@@ -1514,7 +1529,7 @@ li a:hover {
     .all-roles-text {
         font-size: 123%;    }    
 
-    #src1 {
+    .src1 {
         font-size: 100%;
     }
 
