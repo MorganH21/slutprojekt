@@ -136,6 +136,8 @@ li a:hover {
 #event-text2 {
     border: thick turquoise;
     border-style: double;
+    margin-bottom: 1%;
+    margin-top: 0%;
 }
 
 
@@ -582,12 +584,32 @@ li a:hover {
     width: 100%;
 }
 
+.skip {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: turquoise;
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  }
+  
+  #main:focus {
+    transform: translateY(0%);
+  }
+
+  .surces-links {
+      margin-top: 1%;
+      margin-bottom: 5%;
+  }
 
 
 
-
-
-@media screen and (max-width:720px) {
+  @media screen and (max-width:720px) {
     
     h1 {
         font-size: 35px;
@@ -640,7 +662,7 @@ li a:hover {
       }
 
       #music {
-          font-size: 60%;
+          font-size: 80%;
       }
 
     #text1 {
@@ -653,11 +675,11 @@ li a:hover {
     }
 
     .link {
-        font-size: 200px;
+        font-size: 120%;
     }
 
     .links {
-        font-size: 100%;
+        font-size: 65%;
         margin-top: 58px;
         text-align: center;
         margin-top: 1px;
@@ -675,20 +697,20 @@ li a:hover {
 
     #game3 {
         padding: 5px;
-        width: 85%;
+        width: 70%;
         margin-top: 2%;
         margin-bottom: 0px;
-        font-size: 100%;
+        font-size: 120%;
     }
 
     #game2 {
         max-width: 390px;
-        font-size: 120%;
+        font-size: 150%;
     }
 
     #game1 {
         max-width: 390px;
-        font-size: 125%;
+        font-size: 150%;
     }
 
     .music-bar {
@@ -737,7 +759,7 @@ li a:hover {
     #agents-title {
         width: 80%;
         margin: 10%;
-        font-size: 80%;
+        font-size: 100%;
         text-align: center;
         display: flex; 
         flex-direction: column;
@@ -750,7 +772,6 @@ li a:hover {
         margin-bottom: 1%;
         margin-top: 5%;
         width: 92%;
-        font-size: 130%;
     }
 
     .media-roles1 {
@@ -760,7 +781,7 @@ li a:hover {
     }
 
     .all-roles-text {
-        font-size: 60%;
+        font-size: 90%;
         width: 91%;
     }
 
@@ -772,13 +793,12 @@ li a:hover {
     }
 
     .src1 {
-        font-size: 100px;
+        font-size: 70%;
     }
 
     .role {
-        width: 125px;
+        width: 130px;
         margin-top: 5%;
-        font-size: 150%;
     }
 
     #roles {
@@ -838,11 +858,6 @@ li a:hover {
         max-width: 100%;
     }
 
-    #event-text {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
     .mySlides {
         width: 200%;
         border: double white;
@@ -854,12 +869,14 @@ li a:hover {
     
     #event-text {
         font-size: 85%;
-        padding: 2%;
+        padding: 1%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     #event-text2 {
         font-size: 85%;
-        padding: 2%;
+        padding: 1%;
         width: 70%;
         text-align: center;
         display: flex;
@@ -872,7 +889,16 @@ li a:hover {
         display: flex;
         flex-direction: row;
     }
+
+    .surces-links {
+        font-size: 80%;
+        margin-bottom: 5%;
+    }
 }
+
+
+
+
 
 
 
@@ -899,14 +925,6 @@ li a:hover {
         width: 400px;
     }
 
-    .ngt {
-        width: 30%;
-    }
-
-    .role-pic {
-        width: 10px;
-    }
-
     #ind-bild {
         margin: 10px 0px;
     }
@@ -930,7 +948,7 @@ li a:hover {
       }
 
       #music {
-          font-size: 60%;
+          font-size: 65%;
       }
 
     #text1 {
@@ -955,6 +973,7 @@ li a:hover {
 
     .surces {
         margin-bottom: 10px;
+        font-size: 130%;
     }
 
     .sources {
@@ -1041,8 +1060,6 @@ li a:hover {
         flex-direction: row;
         align-items: center;
         width: 100%;
-        margin-top: 10%;
-        margin-bottom: 25%;
     }
 
     .all-roles-text {
@@ -1055,8 +1072,6 @@ li a:hover {
     }
 
     .role {
-        width: 10%;
-        margin-top: 5%;
         font-size: 150%;
     }
 
@@ -1113,294 +1128,8 @@ li a:hover {
     }
 
     .slider-button {
-        font-size: 100%;
-        top: 45%;
-    }
-
-    .div-content {
-        width: 200%;
-        max-width: 100%;
-    }
-
-    #event-text {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    .mySlides {
-        width: 200%;
-        border: double white;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    #event-text {
-        font-size: 85%;
-        padding: 2%;
-    }
-
-    #event-text2 {
-        font-size: 85%;
-        padding: 2%;
-        width: 70%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .space {
-        justify-content: space-between;
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-
-@media screen and (max-width:720px) {
-    
-    h1 {
-        font-size: 35px;
-    }
-
-    body {
-        background-color: rgb(39, 39, 39);
-        font-family: 'Valorant', sans-serif;
-        background-color: #403060;
-        background-image: radial-gradient( circle, rgba(  0, 0, 0, 0 ) 0%, rgba( 0, 0, 0, 0.8 ) 100% );
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-
-    #valorant-bild {
-        width: 400px;
-    }
-
-    #ind-bild {
-        margin: 10px 0px;
-    }
-    
-    .dropdown {
-        color: white;
-        font-size: 70%;
-        display: inline-block;
-    }
-
-    .dropbtn {
-        width: 100%;
-        font-size: 15px;
-    }
-
-    .dropdown-content a {
-        padding: 6px 10px;
-        color: white;
-      }
-
-      .dropdown-content {
-        box-shadow: 1.5px 1.5px 1.5px 1.5px white;
-        background-color: red;
-        border-radius: 25px;
-        padding-right: 0px;
-      }
-
-      #myDropdown {
-        width: 105px;
-      }
-
-      #music {
-          font-size: 60%;
-      }
-
-    #text1 {
-        width: 100%;
-        margin: 35px 0px;
-        font-size: 69%;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .link {
-        font-size: 120%;
-    }
-
-    .links {
-        font-size: 50%;
-        margin-top: 58px;
-        text-align: center;
-        margin-top: 1px;
-    }
-
-    .surces {
-        margin-bottom: 10px;
-    }
-
-    .sources {
-        font-size: 150%;
-        margin-bottom: 8px;
-        margin-top: 20px;
-    }
-
-    #game3 {
-        padding: 5px;
-        width: 85%;
-        margin-top: 2%;
-        margin-bottom: 0px;
-        font-size: 100%;
-    }
-
-    #game2 {
-        max-width: 390px;
-        font-size: 120%;
-    }
-
-    #game1 {
-        max-width: 390px;
-        font-size: 125%;
-    }
-
-    .music-bar {
-        margin: 10px;
-        width: 50%;
-    }
-
-    #sentinel {
-        width: 450%;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #duelist {
-        width: 450%;
-        display: flex;      
-        flex-direction: column;
-        align-items: center; 
-        margin-bottom: 10%;   
-    }
-
-    #controller {
-        width: 450%;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10%; 
-    }
-
-    #initiator {
-        width: 450%;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;    
-    }
-
-    #fract-bild {
-        width: 400px;
-    }
-
-    #fracture {
-        margin: 10px 0px;
-    }
-
-    #agents-title {
-        width: 80%;
-        margin: 10%;
-        font-size: 75%;
-        text-align: center;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;  
-        justify-content: center;
-    }
-
-    .some-agents {
-        padding: 1px;
-        margin-bottom: 1%;
-        margin-top: 5%;
-        width: 92%;
-    }
-
-    .media-roles1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .all-roles-text {
-        font-size: 60%;
-        width: 91%;
-    }
-
-    .media-roles2 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-    }
-
-    .src1 {
-        font-size: 40%;
-    }
-
-    .role {
-        width: 125px;
-        margin-top: 5%;
-    }
-
-    #roles {
-        flex-direction: column;
-    }
-
-    #collection {
-        font-size: 150%;
-    }
-
-    #gaias-bild {
-        width: 120%;
-    }
-
-    #shop-calc {
-        font-size: 150%;
-        text-align: center;
-    }
-
-    .calculator {
-        width: 70%;
-    }
-
-    #din-shop {
-        font-size: 250%;
-    }
-
-    .skin {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10%;
-    }
-
-    #events {
-        flex-direction: column;
-    }
-
-    #pic-changer {
-        width: 50%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .display-left {
-        margin-right: 50%;
-    }
-
-    .slider-button {
         font-size: 200%;
-        top: 45%;
+        top: 37%;
     }
 
     .div-content {
@@ -1443,6 +1172,11 @@ li a:hover {
         flex-direction: row;
     }
 }
+
+
+
+
+
 
 
 
@@ -1461,7 +1195,6 @@ li a:hover {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        height: 110%;
     }
 
     .dropdown {
@@ -1474,10 +1207,12 @@ li a:hover {
 
       #music {
           font-size: 150%;
+          margin-top: 1%;
       }
 
     #text1 {
         font-size: 130%;
+        margin-top: 5%;
     }
 
     .link {
@@ -1485,7 +1220,7 @@ li a:hover {
     }
 
     .links {
-        margin-top: 2%;
+        margin-top: 3%;
         font-size: 150%;
     }
 
@@ -1495,6 +1230,12 @@ li a:hover {
 
     .surces {
         margin-bottom: 1%;
+    }
+
+    .surces-links {
+        font-size: 150%;
+        margin-top: 3%;
+        margin-bottom: 7%;
     }
 
     #game3 {
@@ -1539,12 +1280,8 @@ li a:hover {
     }
 
     #event-text {
-        font-size: 160%;
-    }
-
-    #event-text2 {
-        font-size: 85%;
-    }    
+        font-size: 200%;
+    } 
 
     .all-skins {
         width: 140%;
@@ -1559,7 +1296,7 @@ li a:hover {
     }
 
     #event-text2 {
-        font-size: 160%;
+        font-size: 200%;
         width: 60%;
         text-align: center;
         padding: 0.3%;
@@ -1570,5 +1307,10 @@ li a:hover {
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    #events {
+        font-size: 120%;
+        margin-top: 10%;
     }
 }
