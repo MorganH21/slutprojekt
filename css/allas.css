@@ -62,6 +62,8 @@ div {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: auto;
+    width: 100%;
 }
 
 #bild1 {
@@ -91,8 +93,6 @@ li a:hover {
     justify-content: center;
     flex-direction: row;
 }
-
-
 
 .all-roles-text {
     margin: 10px;
@@ -289,7 +289,8 @@ li a:hover {
     margin: 0px;
 }
 
-img {
+.agent-pics {
+    width: 100%;
     height: auto;
 }
 
@@ -580,9 +581,6 @@ img {
     width: 100%;
 }
 
-.agent-pics {
-    width: 100%;
-}
 
 
 
