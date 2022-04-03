@@ -945,9 +945,9 @@ li a:hover {
 
     .links {
         font-size: 50%;
-        margin-top: 58px;
+        margin-top: 10px;
         text-align: center;
-        margin-top: 1px;
+        margin-bottom: 50%;
     }
 
     .surces {
@@ -1037,20 +1037,14 @@ li a:hover {
         display: flex;
         flex-direction: row;
         align-items: center;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 25%;
     }
 
     .all-roles-text {
         font-size: 60%;
         width: 91%;
-    }
-
-    .media-roles2 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-        margin-top: 30%;
-        margin-bottom: 30%;
     }
 
     .src1 {
